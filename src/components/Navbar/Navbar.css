@@ -1,0 +1,119 @@
+.button {
+  background-color: #6a52fd;
+  color: #ffff;
+  border-radius: 0.5rem;
+}
+
+.sm-btn {
+  -webkit-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -moz-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -o-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -ms-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  border-radius: 1rem;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  border-style: solid;
+  border-image-slice: 1;
+  color: #6a52fd;
+}
+
+.inner-content {
+  -webkit-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -moz-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -o-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -ms-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  border-radius: 1rem;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  border-style: solid;
+  border-image-slice: 30%;
+}
+
+.inner-content1 {
+  -webkit-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -moz-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -o-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -ms-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  border-radius: 1rem;
+  border-width: 2px;
+  border-style: solid;
+  border-image-slice: 1;
+
+}
+
+.input-option-tab .login-tab-active3 {
+  -webkit-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -moz-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -o-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -ms-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  border-width: 2px;
+  border-style: solid;
+  border-image-slice: 1;
+  background: white;
+  color: #6a52fd;
+}
+
+.input-option-tab2 .login-tab-active3 {
+  -webkit-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -moz-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -o-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -ms-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  border-width: 2px;
+  border-style: solid;
+  border-image-slice: 1;
+  background: white;
+  color: #6a52fd;
+}
+
+.set-position {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.custom-border {
+  -webkit-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -moz-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -o-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  -ms-border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  border-image: linear-gradient(180deg, #6a52fd, #fd52ab);
+  border-image-slice: 1;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.money input{
+  border: 1px solid #F6F4FF;
+}
+.money input:invalid {
+  border-color: rgb(213, 16, 16);
+}
+.error-message{
+  display: none;
+}
+.error-message {
+  color: rgb(213, 16, 16)
+}
+input:invalid + .error-message{
+  display: block;
+}
