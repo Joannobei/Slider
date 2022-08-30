@@ -3,7 +3,7 @@ import { Navbar, HeroSection, Section1, Section2, Section3, Section4, Footer} fr
 
 const Egator = () => {
   return (
-    <div className='h-[550vh]'>
+    <div>
       <Navbar />
       <HeroSection />
       <Section1/>
