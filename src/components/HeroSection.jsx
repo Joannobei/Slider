@@ -5,9 +5,9 @@ import { RiShareForwardLine } from "react-icons/ri";
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#FAFCFE]">
-      <div className="pt-[184px] w-[1340px] m-auto pb-[87px] px-[60px]">
-        <div className="flex  ">
+    <div className="bg-gradient-to-r from-[#BEC2E7] to-transparent h-[826px]">
+      <div className="pt-[190px] w-[1340px] m-auto pb-[87px] px-[60px]">
+        <div className="flex ">
           <div className="">
             <h1 className="text-[65px] text-[#212121] w-[774px] font-semibold">
               Modern <span className="text-[#002366]">Programmable Card</span>{" "}
