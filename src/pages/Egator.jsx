@@ -11,20 +11,15 @@ import {
 } from "../components";
 
 const Egator = () => {
-  const tawkMessengerRef = useRef();
-
-  const handleMinimize =() => {
-      tawkMessengerRef.current.minimize();
-  };
-
+ 
   const onLoad = () => {
     console.log('onLoad works!');
 };
 
  
   return (
-    <div>
-        <button onClick={handleMinimize}> Minimize the Chat </button>
+    <div>  
+      
       <TawkMessengerReact
         propertyId="630a9aee54f06e12d8912851"
         widgetId="1gbgmqdgv"
