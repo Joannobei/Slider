@@ -19,11 +19,9 @@ const Egator = () => {
  
   return (
     <div>  
-      
       <TawkMessengerReact
         propertyId="630a9aee54f06e12d8912851"
         widgetId="1gbgmqdgv"
-        // ref={tawkMessengerRef}
         onLoad={onLoad}
       />
       <Navbar />
