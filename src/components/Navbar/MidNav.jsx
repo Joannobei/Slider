@@ -12,7 +12,7 @@ const MidNav = () => {
     setToggle(!toggle);
   };
   return (
-    <div className="set-position">
+    <div className="set-position bg-white">
       <div className=" xl:hidden pt-10 flex justify-between items-center px-5 pb-4 ">
         <NavLink className="" to="/">
           <img src={Logo} alt="eGator_Logo" className="w-28" />

@@ -1,15 +1,15 @@
-import React from "react";
+// import React from "react";
 
 export const navList = [
   {
     id: 1,
     name: "Products",
-    path: "/",
+    path: "/products",
   },
   {
     id: 2,
-    name: "Solutions",
-    path: "/",
+    name: "Features",
+    path: "/features",
   },
   {
     id: 3,
@@ -18,7 +18,7 @@ export const navList = [
   },
   {
     id: 4,
-    name: "Support",
-    path: "/",
+    name: "Resources",
+    path: "/resources",
   },
 ];

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 import {
   Navbar,
@@ -11,26 +11,26 @@ import {
 } from "../components";
 
 const Egator = () => {
-  const onLoad = () => {
-    console.log("onLoad works!");
-  };
+  // const onLoad = () => {
+  //   console.log("onLoad works!");
+  // };
 
 
 
   return (
     <div>
-      <TawkMessengerReact
+      {/* <TawkMessengerReact
         propertyId="630a9aee54f06e12d8912851"
         widgetId="1gbgmqdgv"
-        onLoad={onLoad}
-      />
+        // onLoad={onLoad}
+      /> */}
       <Navbar />
       <HeroSection />
       <Section1 />
       <Section2 />
       <Section3 />
       <Section4 />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

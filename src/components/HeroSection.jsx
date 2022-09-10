@@ -1,42 +1,34 @@
 import React from "react";
 import { Herocard } from "../assets";
 import { NavLink } from "react-router-dom";
-import { RiShareForwardLine } from "react-icons/ri";
 
 const HeroSection = () => {
   return (
-    <div className="bg-gradient-to-r from-[#BEC2E7] to-transparent h-[826px]">
-      <div className="pt-[190px] w-[1340px] m-auto pb-[87px] px-[60px]">
-        <div className="flex ">
-          <div className="">
-            <h1 className="text-[65px] text-[#212121] w-[774px] font-semibold">
-              Modern <span className="text-[#002366]">Programmable Card</span>{" "}
-              Issuing for Innovators
+    <div className="bg-[#F3F4F6] w-screen">
+      <div className="pt-[190px] lg:px-[60px] xl:w-[1440px] w-[375px] m-auto">
+        <div className="flex lg:flex-row justify-between flex-col items-center">
+          <div className="lg:w-[542px] lg:m-0 w-[331px] m-auto lg:text-left text-center">
+            <h1 className="lg:text-[56px] text-[30px] text-[#000505] lg:w-[519px] w-[302px] font-bold lg:h-[128px] leading-none ">
+              Control spending, save time & money
             </h1>
-            <p className="text-[20px] w-[561px] text-[#515154]">
+            <p className="lg:text-[20px] lg:w-[542px] text-[#000505] lg:my-[48px] my-[24px] ">
               eGator is an open API platform that lets you instantly create,
               control and distribute virtual or physical cards.
             </p>
-
-            <div className="flex w-[354px] justify-between items-center mt-[50px]">
-              <button
-                type="button"
-                className=" text-sm border-radius text-white bg-[#002366] w-[149px] h-[49px]"
-              >
-                <NavLink to="/sign_up">Get Started</NavLink>
-              </button>
-              <button
-                type="button"
-                className="text-sm text-[#002366] w-[157px] flex items-center justify-around"
-              >
-                <RiShareForwardLine />
-                Request a Demo
-              </button>
-            </div>
+            <button
+              type="button"
+              className="text-sm border-radius text-white bg-[#6772E5] w-[149px] h-[49px] lg:mb-0 mb-5"
+            >
+              <NavLink to="/ready">Get Started</NavLink>
+            </button>
           </div>
 
           <div>
-            <img src={Herocard} alt="hero_card" className="w-[680px] h-full" />
+            <img
+              src={Herocard}
+              alt="hero_card"
+              className="xl:w-[669.73px] md:w-[568px] w-[288.87px] h-full"
+            />
           </div>
         </div>
       </div>

@@ -1,32 +1,19 @@
 import React from "react";
-import { Datas, Datass, Card, Phone } from "../assets";
 
 const Section1 = () => {
   return (
-    <div className=" bg-[#FAFCFE] ">
-      <div className=" pt-[92px] pb-[85px] max-w-[1440px] w-[1340px] m-auto">
-        <div className="flex w-[1240px] m-auto justify-around items-center shadow-[0px_4px_6px_8px_#a2a2a2] rounded-lg mb-[43px]">
-          <p className=" w-[420px] font-semibold text-[40px] text-[#002366]">
-            Hassle-free solutions for businesses.
+    <div className=" bg-[#6772E5] ">
+      <div className="h-[522px] pt-[84.75px] lg:w-[1440px] w-[375px] m-auto">
+        <div className=" lg:w-[838px] w-[331px]  h-[170px]  m-auto">
+          <h2 className="  font-bold lg:text-[46px] text-white text-center">
+            Hassle-free solutions for businesses
+          </h2>
+          <p className=" text-center lg:text-[20px] mt-[32px] text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla
+            est, tempus sed vitae. Tincidunt nulla sit diam nisi, interdum dui
+            interdum. Nulla diam tortor justo, dignissim nibh. Eget tellus orci
+            eros, quis congue.
           </p>
-          <img src={Datas} alt="graphy" className="w-[359.81px] h-[300px]" />
-          <img src={Datass} alt="graphy" className="w-[300px] h-[300px]" />
-        </div>
-
-        <div className="flex justify-between w-[1240px] m-auto h-[700px]">
-          <div className="w-[610px] rounded-lg shadow-[0px_4px_6px_8px_#a2a2a2] ">
-            <p className=" w-[552px] m-auto font-semibold text-[34px] text-[#002366] mt-[40px] mb-[28px]">
-              eGator’s <span className="font-extrabold text-[36px]">Card Issuing</span> allows you manage and control every aspect of your program.
-            </p>
-            <img src={Card} alt="card" className='w-[500px] h-[500px] m-auto ' />
-          </div>
-          <div className="w-[610px] rounded-lg shadow-[0px_4px_6px_8px_#a2a2a2]">
-            <p className="w-[571px] m-auto font-semibold text-[34px] text-[#002366] mt-[40px] mb-[35px]">
-              Streamline your business expenses with our comprehensive <span className="font-extrabold text-[36px]">Spend Management
-              </span> software.
-            </p>
-            <img src={Phone} alt="phone" className='  ' />
-          </div>
         </div>
       </div>
     </div>

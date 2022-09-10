@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { Logo } from "../../assets";
@@ -6,24 +6,12 @@ import MidNav from "./MidNav";
 import { navList } from "./navList";
 
 const Navbar = () => {
-  const [change, setChange] = useState(false);
-
-  const changeBackground = () => {
-    // console.log(window.scrollY);
-    if (window.scrollY >= 100) {
-      setChange(true);
-    } else {
-      setChange(false);
-     }
-  };
-  window.addEventListener("scroll", changeBackground);
-
   return (
-    <div className={change ? "focus:bg-white" : ""}>
-      <div className="fixed top-0 right-0 left-0 pb-5 ">
-        <nav className="hidden xl:block max-w-[1440px] w-[1220px] m-auto ">
-          <div className="flex justify-between pt-10 ">
-            <div className=" flex items-center ">
+    <div className="">
+      <div className="fixed top-0 right-0 left-0 pb-5 bg-white">
+        <nav className="hidden xl:block max-w-[1440px] w-[1220px] m-auto">
+          <div className="flex justify-between pt-10">
+            <div className=" flex items-center">
               <NavLink to="/">
                 <img src={Logo} alt="eGator_Logo" className="w-28" />
               </NavLink>
@@ -39,20 +27,13 @@ const Navbar = () => {
               ))}
             </div>
 
-            <div className="flex w-[323px] justify-between items-center">
-              <button
-                type="button"
-                className=" text-sm border-radius border-[#002366] border-2 w-[149px] h-[49px]"
-              >
-                <NavLink to="/sign_in">Sign In</NavLink>
-              </button>
-              <button
-                type="button"
-                className=" text-sm border-radius text-white bg-[#002366] w-[149px] h-[49px]"
-              >
-                <NavLink to="/sign_up">Get Started</NavLink>
-              </button>
-            </div>
+            <button
+              type="button"
+              className=" text-sm border-radius text-white bg-[#6772E5] w-[149px] h-[49px]"
+              
+            >
+              <NavLink to="/sign_up">Get Started</NavLink>
+            </button>
           </div>
         </nav>
       </div>
