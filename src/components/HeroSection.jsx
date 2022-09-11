@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#F3F4F6] w-screen">
-      <div className="pt-[190px] lg:px-[60px] xl:w-[1440px] w-[375px] m-auto">
+    <div className="bg-[#F3F4F6] ">
+      <div className="pt-[190px] lg:px-[60px] max-w-[1440px] xl:w-[1440px] md:w-[1300px] w-[375px] m-auto">
         <div className="flex lg:flex-row justify-between flex-col items-center">
           <div className="lg:w-[542px] lg:m-0 w-[331px] m-auto lg:text-left text-center">
             <h1 className="lg:text-[56px] text-[30px] text-[#000505] lg:w-[519px] w-[302px] font-bold lg:h-[128px] leading-none ">
@@ -17,7 +17,7 @@ const HeroSection = () => {
             </p>
             <button
               type="button"
-              className="text-sm border-radius text-white bg-[#6772E5] w-[149px] h-[49px] lg:mb-0 mb-5"
+              className="text-sm border-radius text-white bg-[#6772E5] lg:w-[149px] w-[169px] lg:h-[49px] h-[50px] lg:mb-0 mb-5"
             >
               <NavLink to="/ready">Get Started</NavLink>
             </button>
