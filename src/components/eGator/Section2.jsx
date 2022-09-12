@@ -14,7 +14,7 @@ const Section2 = () => {
               Manage and control company expenses
             </h3>
             <p className=" lg:w-[519px] w-[332px] font-PublicSans">
-            Manage your company’s spend using our unique financial dashboard and spend controls that out you in total control. Built for businesses of all sizes, NGO’s and Government agencies/ departments.
+            Manage your company’s spend using our unique financial dashboard and spend controls that put you in total control. Built for businesses of all sizes, NGO’s and Government agencies/ departments.
             </p>
           </div>
           <div className="lg:w-[677.85px] lg:h-[538px] w-[230px] h-[209.42px] mt-[24px] lg:mt-0">
