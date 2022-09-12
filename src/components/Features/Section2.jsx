@@ -14,7 +14,11 @@ const Section2 = () => {
               Manage and control company expenses
             </h3>
             <p className=" lg:w-[519px] w-[332px] font-PublicSans">
-            Manage your company’s spend using our unique financial dashboard and spend controls that out you in total control. Built for businesses of all sizes, NGO’s and Government agencies/ departments.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              viverra vitae pulvinar dolor pellentesque habitant. Blandit vel in
+              sed gravida risus elit. Id vel adipiscing orci, orci. Venenatis,
+              in tellus fringilla dui viverra cursus. Tincidunt augue auctor
+              felis vulputate pretium, lacus.
             </p>
           </div>
           <div className="lg:w-[677.85px] lg:h-[538px] w-[230px] h-[209.42px] mt-[24px] lg:mt-0">
@@ -38,7 +42,11 @@ const Section2 = () => {
             Frictionless payment options
             </h3>
             <p className=" lg:w-[519px] w-[332px] font-PublicSans">
-            Our cards are accepted globally at ATM’s, Point of Sales and Online. This puts you in the lead and grants you the freedom to transact wherever you find yourself. 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              viverra vitae pulvinar dolor pellentesque habitant. Blandit vel in
+              sed gravida risus elit. Id vel adipiscing orci, orci. Venenatis,
+              in tellus fringilla dui viverra cursus. Tincidunt augue auctor
+              felis vulputate pretium, lacus.
             </p>
           </div>
           

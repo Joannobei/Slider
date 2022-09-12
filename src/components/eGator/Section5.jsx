@@ -10,7 +10,7 @@ const Section5 = () => {
           <p className="lg:text-[40px] text-[24px] font-bold text-[#FEFCFD] m-auto mt-[94px] text-center">
             Why eGator?
           </p>
-          <p className="text-[#FEFCFD] m-auto lg:mb-[128px] mb-[33.84px] text-[14px] lg:text-[16px] text-center">eGator has everything you need to traverse the financial world.</p>
+          <p className="text-[#FEFCFD] m-auto lg:mb-[128px] mb-[33.84px] text-[14px] lg:text-[16px] text-center">Our solution is everything you need to traverse the corporate world.</p>
 
           <div className='lg:w-[1164px] lg:h-[423px] w-[347.39px] h-[135.19px]'>
             <img src={Datas} alt="data" />

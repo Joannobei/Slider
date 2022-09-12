@@ -15,7 +15,11 @@ const Section3 = () => {
             Spend less hours reconciling receipts
             </h3>
             <p className=" lg:w-[519px] w-[332px] font-PublicSans">
-            Do you know accountants lose a minimum of 55 hours every month in their attempt to reconcile all receipts? We provide you the tool to keep track of your receipts and auto-reconcile in real time with the spend item when uploaded.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              viverra vitae pulvinar dolor pellentesque habitant. Blandit vel in
+              sed gravida risus elit. Id vel adipiscing orci, orci. Venenatis,
+              in tellus fringilla dui viverra cursus. Tincidunt augue auctor
+              felis vulputate pretium, lacus.
             </p>
           </div>
           <div className="lg:w-[641.56px] lg:h-[689.57px] w-[221.59px] h-[238.17px] mt-[24px] lg:mt-0">
@@ -39,7 +43,11 @@ const Section3 = () => {
             Physical and Virtual cards issuing
             </h3>
             <p className=" lg:w-[519px] w-[332px] font-PublicSans">
-            eGator provides an open API platform that lets you instantly create, control and distribute virtual or physical cards. Our solution affords you the necessary environment to build, test and launch in record-fast time. 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              viverra vitae pulvinar dolor pellentesque habitant. Blandit vel in
+              sed gravida risus elit. Id vel adipiscing orci, orci. Venenatis,
+              in tellus fringilla dui viverra cursus. Tincidunt augue auctor
+              felis vulputate pretium, lacus.
             </p>
           </div>
           
