@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="fixed top-0 right-0 left-0 pb-10 bg-white ">
-        <nav className="hidden xl:block max-w-[1440px] w-[1319px] m-auto">
+        <nav className="hidden xl:block max-w-[1440px] w-[1270px] m-auto">
           <div className="flex justify-between pt-10">
             <div className=" flex items-center">
               <NavLink to="/">
