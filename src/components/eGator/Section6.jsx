@@ -11,8 +11,7 @@ const Section6 = () => {
               <div className='relative left-0 right-0 m-auto '>
                   <button
                   type="button"
-                  className="text-sm rounded-lg text-white bg-[#6772E5] w-[169px] h-[50px]"
-                  >
+                  className="text-sm rounded-lg text-white bg-[#6772E5] w-[169px] h-[50px]">
                   <NavLink to="/ready">Get Started</NavLink>
                   </button>
               </div>
