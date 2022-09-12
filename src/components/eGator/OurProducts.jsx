@@ -6,7 +6,7 @@ function OurProducts
   return (
     <div>
 <p className='lg:mt-[113px] lg:w-[813px] lg:font-bold lg:text-[46px] m-auto text-center'>Our Products</p>
-<p className='lg:w-[813px] m-auto text-center mt-[48px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sapien non in a est et turpis. Urna quisque at sit ornare consectetur ac.</p>
+{/* <p className='lg:w-[813px] m-auto text-center mt-[48px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sapien non in a est et turpis. Urna quisque at sit ornare consectetur ac.</p> */}
 
 
 <div className=' w-[1281px] h-[606px]  m-auto mt-[88px] bg-[#F3F4F6] rounded-md '> 
@@ -38,10 +38,10 @@ function OurProducts
 <img className='lg:w-[526px] lg:h-[361px] ' src={productPhoneCard} alt="" />
 <div className='w-[542px] '>
   <p className='font-bold text-[38px] '>Card Stack</p>
-  <p className='w-[full] mt-[48px] text-[20px] '>Free up your wallet by replacing all the cards you carry around. 
+  <p className='w-[542px] mt-[48px] text-[20px] '>Free up your wallet by replacing all the cards you carry around. 
 Our Stack Super Card allows you to ditch your cards at home and still get to use them when you have to spend. 
 
-Now, you can also use your virtual card at physical POS. </p>
+<p className='mt-3'>Now, you can also use your virtual card at physical POS.</p> </p>
 <button className='w-[166px] h-[50px] bg-[#6772E5] text-white mt-[48px] rounded-md '>Learn More</button>
 </div>
 </div>
