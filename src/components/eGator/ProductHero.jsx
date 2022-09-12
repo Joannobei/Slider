@@ -26,10 +26,8 @@ function ProductHero() {
           Business spending made simple
         </p>
         <p className="text-center w-[820px] m-auto mt-[48px]  ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla
-          est, tempus sed vitae. Tincidunt nulla sit diam nisi, interdum dui
-          interdum. Nulla diam tortor justo, dignissim nibh. Eget tellus orci
-          eros, quis congue.
+        Designed to make work easy for accountants, HR personnel and Procurement executive. 
+suitable for Large Corporates, Startups, SMEs, NGOs and Governments.
         </p>
       </div>
 
