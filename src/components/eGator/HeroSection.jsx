@@ -12,8 +12,8 @@ const HeroSection = () => {
               Control spending, save time & money
             </h1>
             <p className="lg:text-[20px] text-[#000505] lg:my-[48px] my-[24px] ">
-              eGator is an open API platform that lets you instantly create,
-              control and distribute virtual or physical cards.
+              eGator offers Spend Management and Payment Card solutions to
+              businesses of all types and sizes.
             </p>
             <button
               type="button"
@@ -24,11 +24,7 @@ const HeroSection = () => {
           </div>
 
           <div className="lg:w-[617.77px] w-[288.87px] ">
-            <img
-              src={Herocard}
-              alt="hero_card"
-              className="object-contain"
-            />
+            <img src={Herocard} alt="hero_card" className="object-contain" />
           </div>
         </div>
       </div>
