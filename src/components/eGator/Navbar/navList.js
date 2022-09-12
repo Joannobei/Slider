@@ -18,7 +18,7 @@ export const navList = [
   },
   {
     id: 4,
-    name: "Resources",
-    path: "/resources",
+    name: "Support",
+    path: "/support",
   },
 ];

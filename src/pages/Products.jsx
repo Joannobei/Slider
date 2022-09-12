@@ -1,12 +1,10 @@
 import React from 'react'
 import {
+  ProductHero,
   Footer,
   Navbar,
   OurProducts,
-  ProductHero
-} from "../components";
-
-
+} from '../components/eGator'
 const Products = () => {
   return (
     <div>
@@ -14,7 +12,7 @@ const Products = () => {
       <Navbar />
       <ProductHero />
       <OurProducts />
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { productCards, productComputer, productPhoneCard } from '../assets'
+import { productCards, productComputer, productPhoneCard } from '../../assets'
 
 function OurProducts
 () {

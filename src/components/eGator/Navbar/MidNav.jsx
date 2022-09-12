@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Logo } from "../../assets";
+import { Logo } from "../../../assets";
 import { NavLink } from "react-router-dom";
 import { GrClose } from "react-icons/gr";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -13,7 +13,7 @@ const MidNav = () => {
   };
   return (
     <div className="set-position bg-white">
-      <div className=" xl:hidden pt-10 flex justify-between items-center px-5 pb-4 ">
+      <div className=" xl:hidden pt-10 flex justify-between items-center px-5 pb-10 ">
         <NavLink className="" to="/">
           <img src={Logo} alt="eGator_Logo" className="w-28" />
         </NavLink>
