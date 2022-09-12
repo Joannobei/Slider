@@ -14,7 +14,7 @@ const Section4 = () => {
           <div className="lg:w-[382px] w-[331px] m-auto">
             <h3 className='lg:text-[30px] text-[20px] font-bold'>We’ve got you covered</h3>
             <p className='lg:w-[382px] w-[307px] font-PublicSans text-[14px] lg:text-[16px] mt-[24px] lg:mt-[32px]'>
-            We've got you covered in more ways than one including 24/7 customers, expenses management to help you focus on running your business smoothly. Open API, Virtual and Physical cards, On-the-go financial records, spend as needed...
+            We've got you covered in more ways than one including 24/7 customers experience, expenses management to help you focus on running your business smoothly. Open API, Virtual and Physical cards, On-the-go financial records, spend as needed...
             </p>
           </div>
           {/* First */}
