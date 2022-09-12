@@ -1,8 +1,20 @@
 import React from 'react'
-
+import {
+  ProductHero,
+  Footer,
+  Navbar,
+  OurProducts,
+} from '../components/eGator'
 const Products = () => {
   return (
-    <div>Products</div>
+    <div>
+
+      <Navbar />
+      <ProductHero />
+      <OurProducts />
+      <Footer />
+
+    </div>
   )
 }
 
