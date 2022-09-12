@@ -1,5 +1,5 @@
 import React from "react";
-import {Datas} from "../assets";
+import {Datas} from "../../assets";
 
 
 const Section5 = () => {

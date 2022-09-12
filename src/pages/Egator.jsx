@@ -10,7 +10,7 @@ import {
   Section5,
   Section6,
   Footer,
-} from "../components";
+} from "../components/eGator";
 
 const Egator = () => {
   // const onLoad = () => {

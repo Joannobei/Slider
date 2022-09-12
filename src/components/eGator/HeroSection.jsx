@@ -1,5 +1,5 @@
 import React from "react";
-import { Herocard } from "../assets";
+import { Herocard } from "../../assets";
 import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {

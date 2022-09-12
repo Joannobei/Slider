@@ -1,5 +1,5 @@
 import React from "react";
-import { LogoFooter } from "../assets";
+import { LogoFooter } from "../../assets";
 import { NavLink } from "react-router-dom";
 import {
   FaLinkedinIn,
@@ -28,7 +28,7 @@ const Footer = () => {
                 Get Started
               </NavLink>
             </button>
-      <div className='flex w-[175px] m-auto justify-around mt-5'>
+      <div className='flex w-[175px] m-auto mt-5'>
         <FaFacebookF/>
         <FaInstagram/>
         <FaTwitter/>
@@ -131,7 +131,7 @@ const Footer = () => {
       <div className="border-t-2 w-full"></div>
 
       <div className="flex lg:flex-row flex-col-reverse lg:justify-between justify-evenly lg:w-[1107px] w-[355px] lg:h-[100px] h-[200px] m-auto">
-        <div>2022 All Rights Reserved eGator Finance LTD</div>
+        <div>2022 All Rights Reserved eGator Finance LTD.</div>
 
         <div className="flex lg:justify-between justify-around w-[363px]">
           <p>

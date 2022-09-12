@@ -1,5 +1,5 @@
 import React from "react";
-import { Global, Data, Leader, Scale, Cloud, Speed } from "../assets";
+import { Global, Data, Leader, Scale, Cloud, Speed } from "../../assets";
 
 const Section4 = () => {
   return (

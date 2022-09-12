@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Logo } from "../../assets";
+import { Logo } from "../../../assets";
 import { NavLink } from "react-router-dom";
 import { GrClose } from "react-icons/gr";
 import { GiHamburgerMenu } from "react-icons/gi";
