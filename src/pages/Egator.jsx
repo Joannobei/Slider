@@ -8,6 +8,7 @@ import {
   Section3,
   Section4,
   Section5,
+  Section6,
   Footer,
 } from "../components";
 
@@ -32,7 +33,8 @@ const Egator = () => {
       <Section3 />
       <Section4 />
       <Section5 />
-      {/* <Footer /> */}
+      <Section6 />
+      <Footer />
     </div>
   );
 };

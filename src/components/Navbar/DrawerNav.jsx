@@ -10,21 +10,19 @@ const DrawerNav = () => {
         <div className="flex flex-col justify-between h-[200px]">
           {navList.map((item) => (
             <div key={item.id} className="">
-              <NavLink to={item.path} className="text-gray-800 text-sm">
+              <NavLink to={item.path} className=" font-PublicSans text-[24px] ">
                 {item.name}
               </NavLink>
             </div>
           ))}
         </div>
 
-        <div className=" flex flex-col justify-between h-[120px]">
-          <button className="text-lg border-radius border-[#002366] border-2 w-[149px] h-[49px]">
-            <NavLink to="/sign_in">Sign In</NavLink>
-          </button>
-          <button className=" text-lg border-radius border-2 text-white bg-[#002366] w-[149px] h-[49px]">
+        
+         
+          <button className=" text-sm rounded-lg text-white bg-[#6772E5] lg:w-[149px] w-[169px] lg:h-[49px] h-[50px]">
             <NavLink to="/sign_up">Get Started</NavLink>
           </button>
-        </div>
+       
       </div>
     </div>
   );
