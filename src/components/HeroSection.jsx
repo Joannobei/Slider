@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 const HeroSection = () => {
   return (
     <div className="bg-[#F3F4F6] ">
-      <div className="pt-[190px] lg:px-[60px] lg:max-w-[1440px] max-w-[375px] ">
-        <div className="flex lg:flex-row  flex-col items-center lg:w-[1320px] m-auto ">
+      <div className="pt-[190px] lg:max-w-[1440px] max-w-[375px] ">
+        <div className="flex lg:flex-row justify-between flex-col items-center lg:w-[1319px] m-auto ">
           <div className="lg:w-[519px] lg:m-0 w-[331px] m-auto lg:text-left text-center">
             <h1 className="lg:text-[56px] text-[30px] text-[#000505] lg:w-[519px] w-[302px] font-bold lg:h-[128px] leading-none ">
               Control spending, save time & money
@@ -23,7 +23,7 @@ const HeroSection = () => {
             </button>
           </div>
 
-          <div className="lg:w-[717.77px] w-[288.87px] ">
+          <div className="lg:w-[617.77px] w-[288.87px] ">
             <img
               src={Herocard}
               alt="hero_card"
