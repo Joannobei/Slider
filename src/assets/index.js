@@ -25,6 +25,11 @@ import Control from './controls.png'
 import Reporting from './reporting.png'
 import Prevention from './prevention.png'
 import Visibility from './visibilty.png'
+import PCI from './PCI.png'
+import Digital from './digital.png'
+import Wire from './wire.png'
+import Payment from './payment.png'
+import BCard from './bcard.png'
 
 
 
@@ -33,4 +38,4 @@ export { Logo, LogoFooter, Herocard, Datas,
      Phone, Global, Cloud, Speed, Leader, Data, Nfc,
     Pos, Computer, Scale, Card, productHero, 
     product1, product2, product3,
-     productCards, productComputer, productPhoneCard, WebHook, Control, Reporting, Prevention, Visibility };
+     productCards, productComputer, productPhoneCard, WebHook, Control, Reporting, Prevention, Visibility, PCI, Digital, Wire, Payment, BCard };

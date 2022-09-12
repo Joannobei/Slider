@@ -38,7 +38,7 @@ const Section3 = () => {
 
         {/* SECTION THIRD LINE */}
 
-        <div className="flex justify-between items-center lg:flex-row flex-col-reverse lg:w-[1064px] w-[323px] m-auto mt-[88px] lg:mt-[170px]">
+        <div className="flex justify-between items-center lg:flex-row flex-col-reverse lg:w-[1064px] w-[323px] m-auto mt-[88px] lg:mt-[170px] lg:mb-[170px] mb-[88px]">
 
           <div className="w-[323px] lg:w-[519px]">
             <h3 className="font-bold lg:text-[38px] text-[24px] leading-none ">
