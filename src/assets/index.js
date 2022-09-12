@@ -19,12 +19,18 @@ import productComputer from './productComputer.png'
 import productCards from './productCards.png'
 import productPhoneCard from './productPhoneCard.png'
 import Scale from './scale.png'
+import Card from './cards.png'
+import WebHook from './webhook.png'
+import Control from './controls.png'
+import Reporting from './reporting.png'
+import Prevention from './prevention.png'
+import Visibility from './visibilty.png'
 
 
 
 
 export { Logo, LogoFooter, Herocard, Datas,
      Phone, Global, Cloud, Speed, Leader, Data, Nfc,
-    Pos, Computer, Scale, productHero, 
+    Pos, Computer, Scale, Card, productHero, 
     product1, product2, product3,
-     productCards, productComputer, productPhoneCard };
+     productCards, productComputer, productPhoneCard, WebHook, Control, Reporting, Prevention, Visibility };
