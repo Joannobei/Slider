@@ -28,6 +28,12 @@ const Footer = () => {
                 Get Started
               </NavLink>
             </button>
+      <div className='flex w-[175px] m-auto justify-around mt-5'>
+        <FaFacebookF/>
+        <FaInstagram/>
+        <FaTwitter/>
+        <FaLinkedinIn/>
+      </div>
           </div>
 
           <div className=" mb-10 lg:mt-0 mt-10 ">
@@ -120,6 +126,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      
       <div className="border-t-2 w-full"></div>
 
       <div className="flex lg:flex-row flex-col-reverse lg:justify-between justify-evenly lg:w-[1107px] w-[355px] lg:h-[100px] h-[200px] m-auto">

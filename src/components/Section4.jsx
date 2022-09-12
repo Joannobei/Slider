@@ -4,7 +4,7 @@ import { Global, Data, Leader, Scale, Cloud, Speed } from "../assets";
 const Section4 = () => {
   return (
     <div className="bg-[#F3F4F6] lg:h-[1270px] h-[2088px]">
-      <div className="lg:w-[1440px] w-[375px] lg:pt-[176px] pt-[101px] m-auto">
+      <div className="lg:max-w-[1440px] max-w-[375px] lg:pt-[176px] pt-[101px] m-auto">
         <h2 className="text-center lg:text-[46px] text-[24px] font-bold lg:w-[813px] w-[331px] m-auto">Why organizations prefer our cards</h2>
         <p className="font-PublicSans text-center lg:mb-[176px] mb-[88px] lg:w-[813px] w-[331px] m-auto">
         A digital-first experience where you can instantly push cards to digital wallets for immediate access and enable contactless payments.

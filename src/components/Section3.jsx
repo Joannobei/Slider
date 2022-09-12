@@ -5,7 +5,7 @@ import { Phone, Nfc } from "../assets";
 const Section3 = () => {
   return (
     <div>
-      <div className=" lg:w-[1440px] w-[375px] m-auto">
+      <div className=" lg:max-w-[1440px] max-w-[375px] m-auto">
         <div className="flex justify-between items-center lg:flex-row flex-col lg:w-[1279px] w-[332px] m-auto mt-[89px] lg:mt-[176px]">
           <div className="w-[332px] lg:w-[519px]">
             <p className="text-[#6772E5] lg:text-[24px] text-[20px] font-bold ">
