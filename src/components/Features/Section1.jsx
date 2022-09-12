@@ -9,7 +9,7 @@ const Section1 = () => {
             Smart reporting tools at your fingertips
           </h2>
           <p className=" text-center lg:text-[20px] mt-[32px] text-white">
-          With eGator, you have the added advantage to quickly set-up, unlimited virtual and physical cards, dynamic spend controls and developer sandbox to build and test your product.
+          Integrate with your favorite accounting software, export your reports, access in-depth analytics and see your new automated financial operating system improve your business process.
           </p>
         </div>
       </div>
