@@ -1,8 +1,22 @@
 import React from 'react'
+import {
+  Footer,
+  Navbar,
+  OurProducts,
+  ProductHero
+} from "../components";
+
 
 const Products = () => {
   return (
-    <div>Products</div>
+    <div>
+
+      <Navbar />
+      <ProductHero />
+      <OurProducts />
+      {/* <Footer /> */}
+
+    </div>
   )
 }
 
