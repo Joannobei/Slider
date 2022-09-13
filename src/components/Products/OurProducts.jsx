@@ -6,7 +6,7 @@ function OurProducts
   return (
     <div className='lg:max-w-[1440px] max-w-[375px] m-auto'>
 
-      <p className='lg:mt-[61px] text-[24px] w-[328px] lg:w-[813px] font-bold lg:text-[46px] m-auto lg:text-center'>Our Products</p>
+      <p className='lg:mt-[61px] text-[24px] w-[328px] lg:w-[813px] font-bold lg:text-[46px] m-auto text-center'>Our Products</p>
 
 
       <div className=' lg:w-[1281px] h-[606px]  m-auto mt-[88px] bg-[#F3F4F6] rounded-md '>
