@@ -1,5 +1,5 @@
 import React from "react";
-import { WebHook, Control, Prevention } from "../../assets";
+
 
 const Section3 = () => {
   return (
@@ -15,7 +15,7 @@ const Section3 = () => {
             </p>
           </div>
           <div className="lg:w-[410px] lg:h-[300px] w-[246.31px] h-[180.23px] mt-[24px] lg:mt-0">
-            <img src={Control} alt="phone" />
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060131/eGator%20Website%20Assets/controls_bcwwcz.png' alt="phone" />
           </div>
         </div>
 
@@ -23,7 +23,7 @@ const Section3 = () => {
 
         <div className="flex justify-between items-center lg:flex-row flex-col-reverse lg:w-[1064px] w-[323px] m-auto mt-[88px] lg:mt-[170px]">
           <div className="lg:w-[410px] lg:h-[300px] w-[246.31px] h-[180.23px] mt-[24px] lg:mt-0">
-            <img src={WebHook} alt="cards and phone" />
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060193/eGator%20Website%20Assets/webhook_nzw2gy.png' alt="cards and phone" />
           </div>
 
           <div className="w-[323px] lg:w-[519px]">
@@ -49,7 +49,7 @@ const Section3 = () => {
             </p>
           </div>
           <div className="lg:w-[410px] lg:h-[300px] w-[246.31px] h-[180.23px] mt-[24px] lg:mt-0">
-            <img src={Prevention} alt="cards and phone" />
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060144/eGator%20Website%20Assets/prevention_ftku8l.png' alt="cards and phone" />
           </div>
         </div>
       </div>

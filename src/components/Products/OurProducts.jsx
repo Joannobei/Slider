@@ -7,7 +7,6 @@ function OurProducts
     <div>
 
       <p className='lg:mt-[61px] text-[24px] w-[328px] lg:w-[813px] font-bold lg:text-[46px] m-auto lg:text-center'>Our Products</p>
-      <p className='lg:w-[813px] m-auto lg:text-center w-[328px] mt-[48px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sapien non in a est et turpis. Urna quisque at sit ornare consectetur ac.</p>
 
 
       <div className=' lg:w-[1281px] h-[606px]  m-auto mt-[88px] bg-[#F3F4F6] rounded-md '>
@@ -25,7 +24,7 @@ function OurProducts
       <div className=' w-[1281px] h-[606px]  m-auto lg:mt-[88px] bg-[#F3F4F6] rounded-md '>
         <div className='w-[1143px] m-auto lg:flex py-[129px] justify-between'>
           <div className='w-[542px] '>
-            <p className='font-bold text-[38px] '>Programmable Card Issuing</p>
+            <p className='font-bold text-[38px]'>Programmable Card Issuing</p>
             <p className='w-[full] mt-[48px] text-[20px] '>eGator’s Card Issuing open API platform lets you instantly create, control, distribute and manage every aspect of your payment card program.</p>
             <button className='w-[166px] h-[50px] bg-[#6772E5] text-white mt-[48px] rounded-md'>Learn More</button>
           </div>

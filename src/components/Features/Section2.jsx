@@ -1,5 +1,5 @@
 import React from "react";
-import { Reporting, Visibility} from "../../assets";
+
 
 const Section2 = () => {
   return (
@@ -16,7 +16,7 @@ const Section2 = () => {
             </p>
           </div>
           <div className="lg:w-[410px] lg:h-[300px] w-[246.31px] h-[180.23px] mt-[24px] lg:mt-0">
-            <img src={Visibility} alt="computer" />
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060193/eGator%20Website%20Assets/visibilty_sxg4sj.png' alt="amount-progress" />
           </div>
         </div>
 
@@ -25,7 +25,7 @@ const Section2 = () => {
     
         <div className="flex justify-between items-center lg:flex-row flex-col-reverse lg:w-[1064px] w-[323px] m-auto mt-[88px] lg:mt-[170px]">
           <div className="lg:w-[410px] lg:h-[300px] w-[246.31px] h-[180.23px] mt-[24px] lg:mt-0">
-            <img src={Reporting} alt="computer" />
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060191/eGator%20Website%20Assets/reporting_q3mhct.png' alt="reporting" />
           </div>
 
           <div className="w-[323px] lg:w-[519px]">

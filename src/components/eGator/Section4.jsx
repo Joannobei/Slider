@@ -1,5 +1,5 @@
 import React from "react";
-import { Global, Data, Leader, Scale, Cloud, Speed } from "../../assets";
+
 
 const Section4 = () => {
   return (
@@ -22,7 +22,7 @@ const Section4 = () => {
             <div className="flex flex-col content-between m-auto lg:h-[608px]">
               <div >
                 <div className="flex lg:flex-row flex-col lg:w-[375px] w-[306px] justify-between">
-                <div className='w-[50px]'><img src={Global} alt="global"  /></div>
+                <div className='w-[50px]'><img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060132/eGator%20Website%20Assets/global_ynqvvk.png' alt="global"  /></div>
                 <div>
                   <h4 className="text-[24px]">Truly global</h4>
                   <p className="w-[301px] font-PublicSans mt-[24px]">
@@ -35,7 +35,7 @@ const Section4 = () => {
 
               <div className='lg:mt-[88px] mt-[24px]'>
                 <div className="flex lg:flex-row flex-col lg:w-[375px] w-[306px] justify-between">
-                <div className='w-[50px]'><img src={Scale} alt="scale"  /></div>
+                <div className='w-[50px]'><img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060192/eGator%20Website%20Assets/scale_cqbfur.png' alt="scale"  /></div>
                 <div>
                   <h4 className="text-[24px]">Scalable at speed</h4>
                   <p className="w-[301px] font-PublicSans mt-[24px] ">
@@ -49,7 +49,7 @@ const Section4 = () => {
 
               <div className='lg:mt-[88px] mt-[24px]'>
                 <div className="flex lg:flex-row flex-col lg:w-[375px] w-[306px] justify-between ">
-                <div className='w-[50px]'><img src={Speed} alt="speed" /></div>
+                <div className='w-[50px]'><img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060192/eGator%20Website%20Assets/speed_sewwha.png' alt="speed" /></div>
                  <div>
                  <h4 className="text-[24px]">Speed to market</h4>
                   <p className="w-[301px] font-PublicSans mt-[24px]">
@@ -67,7 +67,7 @@ const Section4 = () => {
             <div className="flex flex-col content-between">
               <div className='lg:mt-0 mt-[24px]'>
                 <div className="flex lg:flex-row flex-col lg:w-[375px] w-[306px] justify-between">
-                <div className='w-[50px]'> <img src={Cloud} alt="cloud-native"  /></div>
+                <div className='w-[50px]'> <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060133/eGator%20Website%20Assets/cloud_fc10wm.png' alt="cloud-native"  /></div>
                  <div>
                  <h4 className="text-[24px]">Cloud-native</h4>
                   <p className="w-[301px] font-PublicSans mt-[24px]">
@@ -80,7 +80,7 @@ const Section4 = () => {
 
               <div className='lg:mt-[88px] mt-[24px]'>
                 <div className="flex lg:flex-row flex-col lg:w-[375px] w-[306px] justify-between">
-                <div className='w-[50px]'><img src={Data} alt="data" /></div>
+                <div className='w-[50px]'><img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060131/eGator%20Website%20Assets/data_dizv7j.png' alt="data" /></div>
                   <div>
                   <h4 className="text-[24px]">Real-time data</h4>
                   <p className="w-[301px] font-PublicSans mt-[24px]">
@@ -94,7 +94,7 @@ const Section4 = () => {
 
               <div className='lg:mt-[88px] mt-[24px]'>
                 <div className="flex lg:flex-row flex-col lg:w-[375px] w-[306px] justify-between">
-                  <div className='w-[50px]'><img src={Leader} alt="leader"  /></div>
+                  <div className='w-[50px]'><img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060138/eGator%20Website%20Assets/leader_vy7orn.png' alt="leader"  /></div>
                   <div>
                     <h4 className="text-[24px]">Trusted by leaders</h4>
                     <p className="w-[301px] font-PublicSans mt-[24px]">

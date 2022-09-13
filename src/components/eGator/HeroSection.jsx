@@ -24,7 +24,7 @@ const HeroSection = () => {
           </div>
 
           <div className="lg:w-[617.77px] w-[288.87px] ">
-            <img src={Herocard} alt="hero_card" className="object-contain" />
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060203/eGator%20Website%20Assets/herocard_opi5ms.png' alt="hero_card" className="object-contain" />
           </div>
         </div>
       </div>

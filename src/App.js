@@ -9,7 +9,7 @@ function App() {
         <Route path="/" element={<Egator />} />
         <Route path="/products" element={<Products />} />
         <Route path="/features" element={<Features />} />
-        <Route path="/developer" element={<Developers />} />
+        <Route path="/" element={<Developers />} />
         <Route path="/" element={<Support />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/ready" element={<GetStarted />} />
