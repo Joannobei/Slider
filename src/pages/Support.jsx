@@ -1,6 +1,6 @@
 import React from 'react'
-import { Navbar } from '../components/eGator'
-import { SupportHero } from '../components/Support'
+import { Footer, Navbar } from '../components/eGator'
+import { SupportContact, SupportHero, SupportInfo } from '../components/Support'
 
 const Support = () => {
   return (
@@ -8,6 +8,9 @@ const Support = () => {
 
 <Navbar />
 <SupportHero />
+<SupportContact />
+<SupportInfo />
+<Footer />
 
     </div>
   )

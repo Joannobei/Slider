@@ -1,4 +1,5 @@
 
 import SupportHero from './SupportHero';
-
-export { SupportHero,};
+import SupportContact from './SupportContact';
+import SupportInfo from './SupportInfo';
+export { SupportHero, SupportContact, SupportInfo};
