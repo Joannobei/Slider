@@ -1,8 +1,15 @@
 import React from 'react'
+import { Navbar } from '../components/eGator'
+import { SupportHero } from '../components/Support'
 
 const Support = () => {
   return (
-    <div>Support</div>
+    <div>
+
+<Navbar />
+<SupportHero />
+
+    </div>
   )
 }
 
