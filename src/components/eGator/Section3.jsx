@@ -1,5 +1,4 @@
 import React from "react";
-import { Phone, Nfc } from "../../assets";
 
 
 const Section3 = () => {
@@ -19,7 +18,7 @@ const Section3 = () => {
             </p>
           </div>
           <div className="lg:w-[641.56px] lg:h-[689.57px] w-[221.59px] h-[238.17px] mt-[24px] lg:mt-0">
-            <img src={Phone} alt="phone" />
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060155/eGator%20Website%20Assets/phone_climex.png' alt="phone" />
           </div>
         </div>
 
@@ -28,7 +27,7 @@ const Section3 = () => {
     
         <div className="flex justify-between items-center lg:flex-row flex-col-reverse lg:w-[1279px] w-[332px] m-auto mt-[88px] lg:mt-[26px]">
           <div className="lg:w-[693.02px] lg:h-[676.38px] w-[275.68px] h-[257.08px] mt-[24px] lg:mt-0">
-            <img src={Nfc} alt="cards and phone" />
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060164/eGator%20Website%20Assets/nfc_jfonvi.png' alt="cards and phone" />
           </div>
 
           <div className="w-[332px] lg:w-[519px]">

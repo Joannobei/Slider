@@ -1,5 +1,4 @@
 import React from "react";
-import {Datas} from "../../assets";
 
 
 const Section5 = () => {
@@ -13,7 +12,7 @@ const Section5 = () => {
           <p className="text-[#FEFCFD] m-auto lg:mb-[128px] mb-[33.84px] text-[14px] lg:text-[16px] text-center">Our solution is everything you need to traverse the corporate world.</p>
 
           <div className='lg:w-[1164px] lg:h-[423px] w-[347.39px] h-[135.19px]'>
-            <img src={Datas} alt="data" />
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060136/eGator%20Website%20Assets/datas_npn7aa.png' alt="data" />
           </div>
         </div>
       </div>
