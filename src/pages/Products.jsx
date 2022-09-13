@@ -1,10 +1,16 @@
 import React from 'react'
 import {
   ProductHero,
+  
+  OurProducts,
+} from '../components/Products'
+
+import {
   Footer,
   Navbar,
-  OurProducts,
 } from '../components/eGator'
+
+
 const Products = () => {
   return (
     <div>
