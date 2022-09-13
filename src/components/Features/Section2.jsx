@@ -11,7 +11,7 @@ const Section2 = () => {
             <h3 className="font-bold lg:text-[38px] text-[24px] leading-none">
             Real-time visibility
             </h3>
-            <p className=" lg:w-[519px] w-[332px] font-PublicSans mt-[48px]">
+            <p className=" lg:w-[519px] w-[322px] m-auto font-PublicSans mt-[48px] text-[14px] lg:text-[16px]">
             View what your business is spending on and how employees trusted with your businesses finances are managing it. No more stories on why a spend can’t be justified.
             </p>
           </div>
@@ -33,7 +33,7 @@ const Section2 = () => {
             <h3 className="font-bold lg:text-[38px] text-[24px] leading-none">
             Advance reporting
             </h3>
-            <p className=" lg:w-[519px] w-[332px] font-PublicSans mt-[48px]">
+            <p className=" lg:w-[519px] w-[322px] m-auto font-PublicSans mt-[48px] text-[14px] lg:text-[16px] ">
             All your spend reports from HR, Procurement and Accounting departments in one place. 
             </p>
           </div>

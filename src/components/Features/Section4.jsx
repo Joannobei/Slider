@@ -9,25 +9,25 @@ const Section4 = () => {
        
 
         <div className="flex lg:flex-row flex-col justify-between lg:w-[1282px] w-[325px] m-auto mt-[88px] ">
-          <div className="w-[197px] m-auto">
-            <img src={PCI} alt="compliance" className='w-[99px] h-[99px]  m-auto'/>
-            <p className="text-center">PCI Compliance</p>
+          <div className="w-[197px] lg:m-auto">
+            <img src={PCI} alt="compliance" className='w-[99px] h-[99px]  lg:m-auto'/>
+            <p className="lg:text-center">PCI Compliance</p>
           </div>
-          <div className="w-[197px] m-auto">
-            <img src={Digital} alt="wallet" className='w-[99px] h-[99px]  m-auto'/>
-            <p className="text-center">Digital Wallet Support</p>
+          <div className="w-[197px] lg:m-auto lg:mt-0 mt-[88px]">
+            <img src={Digital} alt="wallet" className='w-[99px] h-[99px]  lg:m-auto'/>
+            <p className="lg:text-center">Digital Wallet Support</p>
           </div>
-          <div className="w-[197px] m-auto">
-            <img src={Payment} alt="compliance" className='w-[99px] h-[99px] m-auto'/>
-            <p className="text-center">Payment Processing</p>
+          <div className="w-[197px] lg:m-auto lg:mt-0 mt-[88px]">
+            <img src={Payment} alt="compliance" className='w-[99px] h-[99px] lg:m-auto'/>
+            <p className="lg:text-center">Payment Processing</p>
           </div>
-          <div className="w-[197px] m-auto">
-            <img src={BCard} alt="compliance" className='w-[99px] h-[99px]  m-auto'/>
-            <p className="text-center">Branded Cards</p>
+          <div className="w-[197px] lg:m-auto lg:mt-0  mt-[88px]">
+            <img src={BCard} alt="compliance" className='w-[99px] h-[99px]  lg:m-auto'/>
+            <p className="lg:text-center">Branded Cards</p>
           </div>
-          <div className="w-[197px] m-auto">
-            <img src={Wire} alt="compliance" className='w-[99px] h-[99px]  m-auto'/>
-            <p className="text-center">Open API for Cards</p>
+          <div className="w-[197px] lg:m-auto lg:mt-0 mt-[88px]">
+            <img src={Wire} alt="compliance" className='w-[99px] h-[99px]  lg:m-auto'/>
+            <p className="lg:text-center">Open API for Cards</p>
           </div>
 
         </div>
