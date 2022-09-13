@@ -1,5 +1,5 @@
 import React from 'react'
-import { product1, product2, product3, productHero } from '../../assets'
+
 
 function ProductHero() {
     return (
