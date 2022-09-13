@@ -7,8 +7,7 @@ function ProductHero() {
             <div className='lg:h-[681px] h-[570px] lg:max-w-[1440px] max-w-[375px] m-auto mt-[33px] lg:mt-[110px]'>
                 <p className='lg:w-[1190px] w-[334px] text-[30px] font-bold lg:text-[56px] pt-[110px]  lg:text-center m-auto'>eGator is the spending solution you’ve been waiting for!</p>
                 <p className='lg:w-[896px] w-[326px] text-[#000505] m-auto lg:text-center pt-[36px] ' >Africa’s first corporate card and Expense Management Solution. Eliminate manual and complicated reimbursement processes and get real time visibility on your company spending.</p>
-
-                <img src="https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060183/eGator%20Website%20Assets/productHero_d5kqcg.png" className='  flex  m-auto w-[250px] h-[139px] mt-[40px] lg:mt-[88px] lg:h-[280px] lg:w-[560px]' alt="" />
+                <img src="https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060183/eGator%20Website%20Assets/productHero_d5kqcg.png" className='  flex  m-auto w-[250px] h-[139px] mt-[40px] lg:mt-[88px] lg:h-[280px] lg:w-[560px]' alt="hero-img" />
             </div>
 
             <div className="bg-[#6772E5] relative h-[440px] lg:h-[493px] text-white ">
