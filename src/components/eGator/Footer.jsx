@@ -28,11 +28,11 @@ const Footer = () => {
                 Get Started
               </NavLink>
             </button>
-      <div className='flex w-[175px] m-auto mt-5'>
-        <FaFacebookF/>
-        <FaInstagram/>
-        <FaTwitter/>
-        <FaLinkedinIn/>
+      <div className='flex w-[187px] justify-between mt-5'>
+       <p className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " ><FaFacebookF/></p> 
+       <p className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " > <FaInstagram/></p> 
+       <p className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaTwitter/></p> 
+       <p className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaLinkedinIn/></p> 
       </div>
           </div>
 
@@ -128,7 +128,7 @@ const Footer = () => {
       </div>
 
       
-      <div className="border-t-2 w-full"></div>
+      <div className="border-t-[1px] border-[#E5E7EB] lg:mb-[24px] w-full"></div>
 
       <div className="flex lg:flex-row flex-col-reverse lg:justify-between justify-evenly lg:w-[1107px] w-[355px] lg:h-[100px] h-[200px] m-auto">
         <div>2022 All Rights Reserved eGator Finance LTD.</div>

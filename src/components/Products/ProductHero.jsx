@@ -16,7 +16,7 @@ function ProductHero() {
                 <p className='lg:text-center  w-[323px] lg:w-[820px] m-auto mt-[48px]  '>Designed to make work easy for accountants, HR personnel and Procurement executive.
                     suitable for Large Corporates, Startups, SMEs, NGOs and Governments. </p>
             </div>
-            <div className="lg:flex justify-center space-y-[24px] w-[255px] m-auto lg:w-[1274px] relative  -top-[80px] ">
+            <div className="lg:flex justify-center lg:space-y-[0px] space-y-[24px] w-[255px] m-auto lg:w-[1274px] relative  -top-[80px] ">
                 <img className='lg:w-[414px] h-[157px]  w-[255px] lg:h-[255px] ' src={product1} alt="" />
                 <img className='lg:w-[414px] h-[157px] w-[255px] lg:h-[255px] ' src={product2} alt="" />
                 <img className='lg:w-[414px] h-[157px] w-[255px] lg:h-[255px] ' src={product3} alt="" />
