@@ -17,7 +17,7 @@ const HeroSection = () => {
             </p>
             <button
               type="button"
-              className="text-sm rounded-lg text-white bg-[#6772E5] lg:w-[149px] w-[169px] lg:h-[49px] h-[50px] lg:mb-0 mb-5"
+              className="text-sm rounded-md text-white bg-[#6772E5] lg:w-[149px] w-[169px] lg:h-[49px] h-[50px] lg:mb-0 mb-5"
             >
               <NavLink to="/ready">Get Started</NavLink>
             </button>

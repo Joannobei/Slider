@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="flex w-[484px] m-auto justify-between">
               {navList.map((item) => (
                 <div key={item.id} className="flex items-center ">
-                  <NavLink to={item.path} className="text-gray-800 text-sm">
+                  <NavLink to={item.path} onClick={() => window.scrollTo(0, 0)} className="text-gray-800 text-sm">
                     {item.name}
                   </NavLink>
                 </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
 
             <button
               type="button"
-              className=" text-sm rounded-lg text-white bg-[#6772E5] w-[149px] h-[49px]"
+              className=" text-sm rounded-md text-white bg-[#6772E5] w-[149px] h-[49px]"
             >
               <NavLink to="/sign_up">Get Started</NavLink>
             </button>

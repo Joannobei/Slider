@@ -22,17 +22,17 @@ const Footer = () => {
             </p>
             <button
               type="button"
-              className=" text-[14px] font-bold rounded-lg text-[#6772E5] bg-white w-[169px] h-[50px]"
+              className=" text-[14px] font-bold rounded-md text-[#6772E5] bg-white w-[169px] h-[50px]"
             >
-              <NavLink to="/register" onClick={() => window.scrollTo(0, 0)}>
+              <NavLink to="/ready" onClick={() => window.scrollTo(0, 0)}>
                 Get Started
               </NavLink>
             </button>
       <div className='flex w-[187px] justify-between mt-5'>
-       <p className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " ><FaFacebookF/></p> 
-       <p className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " > <FaInstagram/></p> 
-       <p className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaTwitter/></p> 
-       <p className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaLinkedinIn/></p> 
+       <a href='https://www.facebook.com/egatorfinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " ><FaFacebookF/></a> 
+       <a href='https://www.instagram.com/egatorfinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " > <FaInstagram/></a> 
+       <a href='https://www.twitter.com/egatorfinance' target="_blank" rel="noreferrer"  className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaTwitter/></a> 
+       <a href='https://www.linkedin.com/company/egatorfinance/' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaLinkedinIn/></a> 
       </div>
           </div>
 
