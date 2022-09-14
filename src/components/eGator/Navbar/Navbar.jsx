@@ -31,7 +31,7 @@ const Navbar = () => {
               type="button"
               className=" text-sm rounded-md text-white bg-[#6772E5] w-[149px] h-[49px]"
             >
-              <NavLink to="/sign_up">Get Started</NavLink>
+              <a href='https://form.jotform.com/222555797602564' >Get Started</a>
             </button>
           </div>
         </nav>

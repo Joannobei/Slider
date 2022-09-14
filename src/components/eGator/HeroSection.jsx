@@ -19,7 +19,7 @@ const HeroSection = () => {
               type="button"
               className="text-sm rounded-md text-white bg-[#6772E5] lg:w-[149px] w-[169px] lg:h-[49px] h-[50px] lg:mb-0 mb-5"
             >
-              <NavLink to="/ready">Get Started</NavLink>
+              <a href='https://form.jotform.com/222555797602564' >Get Started</a>
             </button>
           </div>
 
