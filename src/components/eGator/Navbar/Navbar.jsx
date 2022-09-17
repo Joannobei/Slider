@@ -8,7 +8,7 @@ import { navList } from "./navList";
 const Navbar = () => {
   return (
     <div className="">
-      <div className="fixed top-0 right-0 left-0 pb-10 bg-white ">
+      <div className="fixed top-0 right-0 left-0 pb-10 bg-white shadow-md ">
         <nav className="hidden xl:block max-w-[1440px] w-[1300px] m-auto">
           <div className="flex justify-between pt-10">
             <div className=" flex items-center">
