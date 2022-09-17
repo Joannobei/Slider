@@ -31,7 +31,7 @@ const Footer = () => {
       <div className='flex w-[187px] justify-between mt-5'>
        <a href='https://www.facebook.com/egatorfinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " ><FaFacebookF/></a> 
        <a href='https://www.instagram.com/egatorfinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " > <FaInstagram/></a> 
-       <a href='https://www.twitter.com/egatorfinance' target="_blank" rel="noreferrer"  className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaTwitter/></a> 
+       <a href='https://www.twitter.com/eGatorFinance' target="_blank" rel="noreferrer"  className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaTwitter/></a> 
        <a href='https://www.linkedin.com/company/egatorfinance/' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaLinkedinIn/></a> 
       </div>
           </div>

@@ -6,5 +6,6 @@ import Support from "./Support";
 import GetStarted from "./GetStarted";
 import Developers from "./Developers";
 import NotFound from './NotFound'
+import Biopay from './Biopay'
 
-export { Egator, Products, Features, Support, Resources, Developers, GetStarted, NotFound  };
+export { Egator, Products, Features, Support, Resources, Developers, GetStarted, NotFound, Biopay  };
