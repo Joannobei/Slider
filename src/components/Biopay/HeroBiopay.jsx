@@ -13,7 +13,7 @@ function HeroBiopay() {
             and deep AI
           </p>
           <button className="w-[169px] h-[50px] rounded-[4px] bg-[#6772E5] text-white ">
-            Get Started
+          <a href='https://form.jotform.com/222555797602564' >Get Started</a>
           </button>
         </div>
 

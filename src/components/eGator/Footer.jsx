@@ -65,7 +65,7 @@ const Footer = () => {
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/">Card Satck</NavLink>
+              <NavLink to="/">Card Stack</NavLink>
             </p>
           </div>
 
@@ -76,7 +76,7 @@ const Footer = () => {
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/support">Blog</NavLink>
+              <NavLink to="/blog">Blog</NavLink>
             </p>
             <p
               className="pb-3 text-white"
