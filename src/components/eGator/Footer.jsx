@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { LogoFooter } from "../../assets";
 import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import {
   FaLinkedinIn,
   FaFacebookF,
@@ -9,12 +10,18 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+
+  const pathname = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <footer className=" text-white bg-[#6772E5]">
       <div className=" pt-[2rem]  lg:w-[1126px] w-[375px] m-auto text-white ">
         <div className="lg:flex lg:justify-between pt-[1.5rem]">
           <div className=" w-[248px]">
-            <NavLink to="/" onClick={() => window.scrollTo(0, 0)}>
+            <NavLink to="/" >
               <img src={LogoFooter} alt="logo_white" />
             </NavLink>
             <p className="text-[16px] mt-[24px] mb-[24px] ">
@@ -24,7 +31,8 @@ const Footer = () => {
               type="button"
               className=" text-[14px] font-bold rounded-md text-[#6772E5] bg-white w-[169px] h-[50px]"
             >
-              <NavLink to="/ready" onClick={() => window.scrollTo(0, 0)}>
+              <NavLink to="/ready" 
+              >
                 Get Started
               </NavLink>
             </button>
@@ -39,96 +47,97 @@ const Footer = () => {
           <div className=" mb-10 lg:mt-0 mt-10 ">
             <p
               className="pb-3 text-white font-bold"
-              onClick={() => window.scrollTo(0, 0)}
             >
               <NavLink to="/products">Products</NavLink>
             </p>
             <p
               className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
             >
-              <NavLink to="/">Spend Management</NavLink>
+              <NavLink to="/">Expense Management</NavLink>
             </p>
 
             <p
               className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
             >
-              <NavLink to="/privacy">Card API</NavLink>
+              <NavLink to="/privacy">Programmable Card Issuing</NavLink>
             </p>
 
             <p
               className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
             >
-              <NavLink to="/privacy">Wallet</NavLink>
+              <NavLink to="/privacy">Card Satck</NavLink>
             </p>
           </div>
 
           <div className="mb-10">
             <p className="pb-3 text-white font-bold">
-              <NavLink to="/resources">Resources</NavLink>
+              <NavLink to="/resources">Support</NavLink>
             </p>
             <p
               className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
             >
-              <NavLink to="/">Developers</NavLink>
+              <NavLink to="/">Blog</NavLink>
             </p>
             <p
               className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
             >
-              <NavLink to="/">Documentation</NavLink>
+              <NavLink to="/">Company</NavLink>
             </p>
             <p
               className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
             >
-              <NavLink to="/">API Reference</NavLink>
+              <NavLink to="/">Contact</NavLink>
             </p>
-            <p
-              className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              <NavLink to="/">SDKs</NavLink>
-            </p>
-            <p
-              className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              <NavLink to="/">Sitemap</NavLink>
-            </p>
+           
           </div>
 
           <div className="mb-10">
             <p className="pb-3 text-white font-bold">
               <NavLink to="/">Company</NavLink>
             </p>
+           
             <p
               className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
+            >
+              <NavLink to="/">Career</NavLink>
+            </p>
+            <p
+              className="pb-3 text-white"
             >
               <NavLink to="/">About us</NavLink>
             </p>
-            <p
-              className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              <NavLink to="/">Blog</NavLink>
+          </div>
+
+          <div className="mb-10">
+            <p className="pb-3 text-white font-bold">
+              <NavLink to="/">Developers</NavLink>
             </p>
             <p
               className="pb-3 text-white"
-              onClick={() => window.scrollTo(0, 0)}
             >
-              <NavLink to="/support">Contact</NavLink>
+              <NavLink to="/">API Reference</NavLink>
+            </p>
+            <p
+              className="pb-3 text-white"
+            >
+              <NavLink to="/">API Documentation</NavLink>
+            </p>
+            <p
+              className="pb-3 text-white"
+            >
+              <NavLink to="/">Sitemap</NavLink>
+            </p>
+            <p
+              className="pb-3 text-white"
+            >
+              <NavLink to="/">SDKs</NavLink>
             </p>
           </div>
         </div>
       </div>
 
       
-      <div className="border-t-[1px] border-[#E5E7EB] lg:mb-[24px] w-full"></div>
+      <div className="border-t-[1px] border-[#E5E7EB] lg:my-[24px] w-full"></div>
 
       <div className="flex lg:flex-row flex-col-reverse lg:justify-between justify-evenly lg:w-[1107px] w-[355px] lg:h-[100px] h-[200px] m-auto">
         <div>2022 All Rights Reserved eGator Finance LTD.</div>
