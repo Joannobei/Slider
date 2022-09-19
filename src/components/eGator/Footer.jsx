@@ -53,40 +53,40 @@ const Footer = () => {
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/">Expense Management</NavLink>
+              <NavLink to="/expense">Expense Management</NavLink>
             </p>
 
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/privacy">Programmable Card Issuing</NavLink>
+              <NavLink to="/">Programmable Card Issuing</NavLink>
             </p>
 
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/privacy">Card Satck</NavLink>
+              <NavLink to="/">Card Satck</NavLink>
             </p>
           </div>
 
           <div className="mb-10">
             <p className="pb-3 text-white font-bold">
-              <NavLink to="/resources">Support</NavLink>
+              <NavLink to="/support">Support</NavLink>
             </p>
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/">Blog</NavLink>
+              <NavLink to="/support">Blog</NavLink>
             </p>
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/">Company</NavLink>
+              Company
             </p>
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/">Contact</NavLink>
+              <NavLink to="/support">Contact</NavLink>
             </p>
            
           </div>
