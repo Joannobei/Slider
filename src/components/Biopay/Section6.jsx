@@ -1,7 +1,12 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, {useEffect} from 'react'
+import {NavLink, useLocation } from 'react-router-dom'
 
 function Section6() {
+  const pathname = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  
   return (
     <div>
 <div className=" bg-[#F3F4F6] ">
@@ -13,10 +18,10 @@ function Section6() {
           Enjoy the freedom to pay through modern and easier ways.
           </p>
           <button className="bg-[#6772E5] rounded-md text-white w-[169px] h-[50px] ">
-            {" "}
-            <NavLink to="/ready" onClick={() => window.scrollTo(0, 0)}>
+            
+            <NavLink to="/ready" >
               Get Started
-            </NavLink>{" "}
+            </NavLink> 
           </button>
         </div>
       </div>

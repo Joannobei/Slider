@@ -2,18 +2,18 @@ import React from 'react'
 
 function HeroBiopay() {
     return (
-        <div className=' bg-[#F3F4F6] pt-[260px] lg:pb-[216px]' >
+        <div className=' bg-[#F3F4F6] pt-[188px] pb-[94px] lg:pt-[260px] lg:pb-[216px]' >
 
-            <div className="lg:w-[1281px] flex justify-between  m-auto">
-                <div className=" lg:w-[440px] ">
-                    <p className='lg:leading-[64px] font-bold lg:text-[56px] ' >Secure and fast
+            <div className="lg:w-[1281px] lg:flex justify-between  m-auto">
+                <div className=" lg:w-[440px] w-[325px] m-auto lg:m-0  ">
+                    <p className='lg:leading-[64px] font-bold  text-[30px] lg:text-[56px] ' >Secure and fast
                         way to process
                         payment </p>
-                    <p className=' text-[20px] lg:py-[48px] '>eGator enables modern biometric payments through Machine Learning and deep AI</p>
-                    <button className='lg:w-[169px] h-[50px] rounded-[4px] bg-[#6772E5] text-white ' >Get Started</button>
+                    <p className=' lg:text-[20px] lg:py-[48px] py-[26px] text-[14px] '>eGator enables modern biometric payments through Machine Learning and deep AI</p>
+                    <button className='w-[169px] h-[50px] rounded-[4px] bg-[#6772E5] text-white ' >Get Started</button>
                 </div>
 
-                <div className="lg:w-[607px] ">
+                <div className="lg:w-[607px] m-auto lg:m-0 w-[324px] lg:mt-0 mt-[29px]">
 
                     <img src="https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663243205/eGator%20Website%20Assets/face_yuv5h6.png" alt="" />
                 </div>

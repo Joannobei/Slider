@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <footer className=" text-white bg-[#6772E5]">
-      <div className=" pt-[2rem]  lg:w-[1126px] w-[375px] m-auto text-white ">
+      <div className=" pt-[2rem]  lg:w-[1126px] w-[350px] m-auto text-white ">
         <div className="lg:flex lg:justify-between pt-[1.5rem]">
           <div className=" w-[248px]">
             <NavLink to="/" >
