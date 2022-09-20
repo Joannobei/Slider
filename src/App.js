@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/expense" element={<Egator />} />
+        <Route path="/" element={<Egator />} />
         <Route path="/products" element={<Products />} />
         <Route path="/features" element={<Features />} />
         <Route path="/developer" element={<Developers />} />
@@ -14,7 +14,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/ready" element={<GetStarted />} />
         <Route path="/resources" element={<Resources />} />
-        <Route path="/" element={<Biopay />} />
+        <Route path="/biopay" element={<Biopay />} />
       </Routes>
     </div>
   );

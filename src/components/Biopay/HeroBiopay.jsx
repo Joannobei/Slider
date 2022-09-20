@@ -6,7 +6,7 @@ function HeroBiopay() {
       <div className="lg:w-[1281px] lg:flex justify-between  m-auto">
         <div className=" lg:w-[440px] w-[325px] m-auto lg:m-0  ">
           <p className="lg:leading-[64px] font-bold  text-[30px] lg:text-[56px] ">
-            Secure and fast way to process payment{" "}
+            Secure and fast way to process payments
           </p>
           <p className=" lg:text-[20px] lg:py-[48px] py-[26px] text-[14px] ">
             eGator enables modern biometric payments through Machine Learning
