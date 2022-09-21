@@ -1,6 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { Egator, Products, Features, Resources, Support, Developers, GetStarted, NotFound, Biopay } from "./pages";
+import { Egator, Products, Features, Resources, Support, Developers, GetStarted, NotFound } from "./pages";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/ready" element={<GetStarted />} />
         <Route path="/resources" element={<Resources />} />
-        <Route path="/biopay" element={<Biopay />} />
+     
       </Routes>
     </div>
   );
