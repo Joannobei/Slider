@@ -1,11 +1,16 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { NavLink, useLocation } from "react-router-dom";
+import { RiArrowDropDownLine } from 'react-icons/ri'
 import { Logo } from "../../../assets";
 import MidNav from "./MidNav";
 import { navList } from "./navList";
+import PopUpModal from "./PopUpModal";
 
 const Navbar = () => {
+
+  const [showMyPopUp, setShowMyPopUp] = useState(false);
+  const handleOnClosePopUp = () => setShowMyPopUp(false);
   const pathname = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -21,14 +26,31 @@ const Navbar = () => {
               </NavLink>
             </div>
 
-            <div className="flex w-[484px] m-auto justify-between">
-              {navList.map((item) => (
-                <div key={item.id} className="flex items-center ">
-                  <NavLink to={item.path} className="text-gray-800 text-sm">
-                    {item.name}
-                  </NavLink>
-                </div>
-              ))}
+            <div className="flex w-[330px] m-auto justify-between">
+              <div className="">
+                <NavLink to='#'
+                  onClick={() => setShowMyPopUp(!showMyPopUp)}
+                  className="text-gray-800 text-sm flex items-center">
+                  Products <span className="inline-block text-[20px] "><RiArrowDropDownLine /></span>
+                </NavLink>
+                <PopUpModal visiblePopUp={showMyPopUp} onClosePopUp={handleOnClosePopUp} />
+              </div>
+
+
+
+              <NavLink to='#'
+
+                className="text-gray-800 text-sm">
+                Developers
+              </NavLink>
+
+              <NavLink to='/support'
+
+                className="text-gray-800 text-sm">
+                Support
+              </NavLink>
+
+
             </div>
 
             <button
@@ -40,6 +62,7 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
+
       <MidNav />
     </div>
   );

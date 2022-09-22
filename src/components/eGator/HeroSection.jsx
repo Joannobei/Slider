@@ -1,18 +1,17 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
   return (
     <div className="bg-[#F3F4F6] ">
-      <div className="pt-[190px] m-auto">
-        <div className="flex lg:flex-row justify-between flex-col items-center md:w-[1300px] w-[320px] m-auto ">
-          <div className="lg:w-[519px] md:w-[519px] lg:m-0 w-[331px] m-auto lg:text-left text-center">
-            <h1 className="lg:text-[56px] text-[30px] text-[#000505] md:w-[519px] w-[302px] font-bold lg:h-[128px] leading-none ">
-              Control spending, save time & money
+      <div className="pt-[190px] lg:pb-[50px] m-auto">
+        <div className="flex lg:flex-row justify-between flex-col items-center lg:w-[1300px] w-[320px] m-auto ">
+          <div className="lg:w-[542px]  lg:m-0 w-[331px] m-auto lg:text-left ">
+            <h1 className="lg:text-[56px] leading-[38px] text-[30px] text-[#000505] lg:w-[542px] w-[302px] font-bold lg:h-[128px] lg:leading-none ">
+              Modern Payment Solutions for EMEA
             </h1>
-            <p className="lg:text-[20px] text-[#000505] lg:my-[48px] my-[24px] ">
-              eGator offers Spend Management and Payment Card solutions to
-              businesses of all types and sizes.
+            <p className="lg:text-[20px] text-[14px] leading-[24px] lg:leading-[28px] text-[#000505] lg:my-[48px] my-[24px] ">
+              eGator offers frictionless biometric payments, through secure
+              tokenization and deep AI.
             </p>
             <button
               type="button"
@@ -22,8 +21,8 @@ const HeroSection = () => {
             </button>
           </div>
 
-          <div className="lg:w-[617.77px] w-[288.87px] ">
-            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663060203/eGator%20Website%20Assets/herocard_opi5ms.png' alt="hero_card" className="object-contain lg:w-[617.77px] w-[288.87px]" />
+          <div className="lg:w-[617.77px] lg:mt-0 mt-[57px] w-[305px] lg:h-full h-[285.58px] m-auto ">
+            <img src='https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663775472/eGator%20Website%20Assets/Hero_jpl1vs.png' alt="hero_card" className="object-contain lg:w-[617.77px] w-[288.87px]" />
           </div>
         </div>
       </div>

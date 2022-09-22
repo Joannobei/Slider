@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { LogoFooter } from "../../assets";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -31,17 +31,17 @@ const Footer = () => {
               type="button"
               className=" text-[14px] font-bold rounded-md text-[#6772E5] bg-white w-[169px] h-[50px]"
             >
-              <NavLink to="/ready" 
+              <NavLink to="/ready"
               >
                 Get Started
               </NavLink>
             </button>
-      <div className='flex w-[187px] justify-between mt-5'>
-       <a href='https://www.facebook.com/egatorfinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " ><FaFacebookF/></a> 
-       <a href='https://www.instagram.com/egatorfinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " > <FaInstagram/></a> 
-       <a href='https://www.twitter.com/eGatorFinance' target="_blank" rel="noreferrer"  className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaTwitter/></a> 
-       <a href='https://www.linkedin.com/company/egatorfinance/' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaLinkedinIn/></a> 
-      </div>
+            <div className='flex w-[187px] justify-between mt-5'>
+              <a href='https://www.facebook.com/egatorfinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " ><FaFacebookF /></a>
+              <a href='https://www.instagram.com/egatorfinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " > <FaInstagram /></a>
+              <a href='https://www.twitter.com/eGatorFinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaTwitter /></a>
+              <a href='https://www.linkedin.com/company/egatorfinance/' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md "><FaLinkedinIn /></a>
+            </div>
           </div>
 
           <div className=" mb-10 lg:mt-0 mt-10 ">
@@ -53,19 +53,21 @@ const Footer = () => {
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/expense">Expense Management</NavLink>
+             <a href='https://biopay.egator.co/' > For Merchants </a> 
+              
             </p>
 
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/">Programmable Card Issuing</NavLink>
+             <a href='https://biopay.egator.co/' > For Corporates</a> 
+             
             </p>
 
             <p
               className="pb-3 text-white"
             >
-              <NavLink to="/">Card Stack</NavLink>
+             <a href='https://biopay.egator.co/' >For Developers</a> 
             </p>
           </div>
 
@@ -88,14 +90,14 @@ const Footer = () => {
             >
               <NavLink to="/support">Contact</NavLink>
             </p>
-           
+
           </div>
 
           <div className="mb-10">
             <p className="pb-3 text-white font-bold">
               <NavLink to="/">Company</NavLink>
             </p>
-           
+
             <p
               className="pb-3 text-white"
             >
@@ -136,24 +138,25 @@ const Footer = () => {
         </div>
       </div>
 
-      
-      <div className="border-t-[1px] border-[#E5E7EB] lg:my-[24px] w-full"></div>
+
+      <div className="border-t-[1px] lg:mt-[105px] border-[#E5E7EB] lg:mb-[24px] w-full"></div>
 
       <div className="flex lg:flex-row flex-col-reverse lg:justify-between justify-evenly lg:w-[1107px] w-[355px] lg:h-[100px] h-[200px] m-auto">
         <div>2022 All Rights Reserved eGator Finance LTD.</div>
 
-        <div className="flex lg:justify-between justify-around w-[363px]">
+        <div className="flex lg:justify-between justify-around w-[186px] ">
           <p>
-          <NavLink to="/terms">Terms</NavLink>
+            <NavLink to="/terms">Terms</NavLink>
           </p>
+          <p>|</p>
           <p>
-          <NavLink to="/privacy">Privacy</NavLink>
+            <NavLink to="/privacy">Privacy</NavLink>
           </p>
+
+          <p>|</p>
+          
           <p>
-          <NavLink to="/security">Security</NavLink>
-          </p>
-          <p>
-          <NavLink to="/cookie">Cookie</NavLink>
+            <NavLink to="/cookie">Cookies</NavLink>
           </p>
         </div>
       </div>

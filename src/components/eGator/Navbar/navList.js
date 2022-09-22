@@ -1,23 +1,20 @@
 // import React from "react";
+import { RiArrowDropDownLine } from 'react-icons/ri'
 
 export const navList = [
   {
     id: 1,
-    name: "Products",
-    path: "/products",
+    name: "product",
+    path: "#",
   },
+
   {
     id: 2,
-    name: "Features",
-    path: "/features",
-  },
-  {
-    id: 3,
     name: "Developers",
     path: "/",
   },
   {
-    id: 4,
+    id: 3,
     name: "Support",
     path: "/support",
   },
