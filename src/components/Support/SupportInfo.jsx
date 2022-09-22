@@ -8,7 +8,7 @@ function SupportInfo() {
         <div className="lg:w-[85%] m-auto lg:py-[170px] py-[88px] lg:space-y-0 space-y-[44px] lg:flex justify-between items-center ">
           <img
             className="lg:w-[48.4%] object-contain m-auto w-[325px] h-[227px] lg:h-[459px] "
-            src="https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663073921/eGator%20Website%20Assets/support2_gzaapk.png"
+            src="https://res.cloudinary.com/egator-finance-ltd/image/upload/v1663838025/eGator%20Website%20Assets/support_guf3kf.png"
             alt="support"
           />
 
