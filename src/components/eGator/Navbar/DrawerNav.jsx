@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { RiArrowDropDownLine } from 'react-icons/ri'
 import PopUpModal from "./PopUpModal";
-
-
 import "./Navbar.css";
-import { navList } from "./navList";
+// import { navList } from "./navList";
 
 const DrawerNav = () => {
   const [showMyPopUp, setShowMyPopUp] = useState(false);

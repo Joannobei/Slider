@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 function PopUpModal({ visiblePopUp, onClosePopUp }) {
-    const [feed, setFeed] = useState([]);
 
     if (!visiblePopUp) return null;
     return (
