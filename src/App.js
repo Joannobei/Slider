@@ -5,8 +5,6 @@ function App() {
   return (
     <div className="App ">
       <Carousel />
-    </div>
-  );
-}
 
+</div>)}
 export default App;
