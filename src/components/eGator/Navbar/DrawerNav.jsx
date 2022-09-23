@@ -8,19 +8,17 @@ import "./Navbar.css";
 import { navList } from "./navList";
 
 const DrawerNav = () => {
-  const [showMyPopUp, setShowMyPopUp] = useState(false);
-  const handleOnClosePopUp = () => setShowMyPopUp(false);
+ 
   return (
     <div className=" border-2 lg:hidden block">
       <div className="flex flex-col justify-between items-center sm:w-80 w-72 h-[524px] absolute right-0 left-32 m-auto z-10 py-10 px-8 mr-5 bg-white border-2 ">
         <div className="flex flex-col justify-between h-[200px]">
           <div className="">
             <NavLink to='#'
-              onClick={() => setShowMyPopUp(!showMyPopUp)}
-              className="text-gray-800 text-sm flex items-center">
+              className="text-gray-800 peer text-sm flex items-center">
               Products <span className="inline-block text-[20px] "><RiArrowDropDownLine /></span>
             </NavLink>
-            <PopUpModal visiblePopUp={showMyPopUp} onClosePopUp={handleOnClosePopUp} />
+            <PopUpModal  />
           </div>
 
 

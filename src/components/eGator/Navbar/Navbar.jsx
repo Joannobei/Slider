@@ -29,11 +29,10 @@ const Navbar = () => {
             <div className="flex w-[330px] m-auto justify-between">
               <div className="">
                 <NavLink to='#'
-                  onClick={() => setShowMyPopUp(!showMyPopUp)}
-                  className="text-gray-800 text-sm flex items-center">
+                  className="text-gray-800 peer text-sm flex items-center">
                   Products <span className="inline-block text-[20px] "><RiArrowDropDownLine /></span>
                 </NavLink>
-                <PopUpModal visiblePopUp={showMyPopUp} onClosePopUp={handleOnClosePopUp} />
+                <PopUpModal />
               </div>
 
 
