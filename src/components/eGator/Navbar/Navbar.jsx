@@ -4,7 +4,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import { RiArrowDropDownLine } from 'react-icons/ri'
 import { Logo } from "../../../assets";
 import MidNav from "./MidNav";
-import { navList } from "./navList";
+// import { navList } from "./navList";
 import PopUpModal from "./PopUpModal";
 
 const Navbar = () => {

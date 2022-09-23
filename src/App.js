@@ -1,6 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { Egator, Products, Features, Resources, Support, Developers, GetStarted, NotFound } from "./pages";
+import { Egator, Products, Features,  Support, Developers, GetStarted, NotFound } from "./pages";
 
 function App() {
   return (
@@ -13,8 +13,6 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/ready" element={<GetStarted />} />
-        <Route path="/resources" element={<Resources />} />
-     
       </Routes>
     </div>
   );

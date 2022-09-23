@@ -31,10 +31,7 @@ const Footer = () => {
               type="button"
               className=" text-[14px] font-bold rounded-md text-[#6772E5] bg-white w-[169px] h-[50px]"
             >
-              <NavLink to="/ready"
-              >
-                Get Started
-              </NavLink>
+              <a href='https://form.jotform.com/222555797602564' >Get Started</a>
             </button>
             <div className='flex w-[187px] justify-between mt-5'>
               <a href='https://www.facebook.com/egatorfinance' target="_blank" rel="noreferrer" className="bg-white w-[33px] h-[33px] text-[#6772E5] flex justify-center items-center rounded-md " ><FaFacebookF /></a>
@@ -48,92 +45,92 @@ const Footer = () => {
             <p
               className="pb-3 text-white font-bold"
             >
-              <NavLink to="/products">Products</NavLink>
+              Products
             </p>
-            <p
+            <div
               className="pb-3 text-white"
             >
              <a href='https://biopay.egator.co/' > For Merchants </a> 
               
-            </p>
+            </div>
 
-            <p
+            <div
               className="pb-3 text-white"
             >
-             <a href='https://biopay.egator.co/' > For Corporates</a> 
+             <a href='https://expense.egator.co/' > For Corporates</a> 
              
-            </p>
+            </div>
 
-            <p
+            <div
               className="pb-3 text-white"
             >
              <a href='https://biopay.egator.co/' >For Developers</a> 
-            </p>
+            </div>
           </div>
 
           <div className="mb-10">
             <p className="pb-3 text-white font-bold">
-              <NavLink to="/support">Support</NavLink>
+              Support
             </p>
-            <p
+            <div
               className="pb-3 text-white"
             >
               <NavLink to="/blog">Blog</NavLink>
-            </p>
-            <p
+            </div>
+            <div
               className="pb-3 text-white"
             >
-              Company
-            </p>
-            <p
+              Community
+            </div>
+            <div
               className="pb-3 text-white"
             >
               <NavLink to="/support">Contact</NavLink>
-            </p>
+            </div>
 
           </div>
 
           <div className="mb-10">
             <p className="pb-3 text-white font-bold">
-              <NavLink to="/">Company</NavLink>
+             Company
             </p>
 
-            <p
+            <div
               className="pb-3 text-white"
             >
               <NavLink to="/">Career</NavLink>
-            </p>
-            <p
+            </div>
+            <div
               className="pb-3 text-white"
             >
-              <NavLink to="/">About us</NavLink>
-            </p>
+              <a href="https://www.linkedin.com/company/egatorfinance/">About us</a>
+            </div>
           </div>
 
           <div className="mb-10">
             <p className="pb-3 text-white font-bold">
-              <NavLink to="/">Developers</NavLink>
+             Developers
             </p>
-            <p
+            <div
               className="pb-3 text-white"
             >
               <NavLink to="/">API Reference</NavLink>
-            </p>
-            <p
+            </div>
+            <div
               className="pb-3 text-white"
             >
               <NavLink to="/">API Documentation</NavLink>
-            </p>
-            <p
+            </div>
+            <div
               className="pb-3 text-white"
             >
               <NavLink to="/">Sitemap</NavLink>
-            </p>
-            <p
+            </div>
+            <div
               className="pb-3 text-white"
             >
               <NavLink to="/">SDKs</NavLink>
-            </p>
+            </div>
           </div>
         </div>
       </div>
